@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulFlare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo-Photoroom%20(1).png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+          <h1>OUR PRODUCTS</h1>
+        </section>
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        const barsIcon = document.querySelector(".fa-bars");
+        const closeIcon = document.querySelector(".fa-x");
+
+        // Function to toggle the navigation menu
+        barsIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("nav-active");
+        });
+
+        // Function to close the navigation menu
+        closeIcon.addEventListener("click", () => {
+            navLinks.classList.remove("nav-active");
+        });
+
+        // Close the menu when a link is clicked
+        const menuLinks = document.querySelectorAll(".nav-links ul li a");
+        menuLinks .forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("nav-active");
+            });
+        });
+    </script>
+        
+        
+        
+        
+         <section class="products4" id="spices-section">
+    <h1>Spices</h1>
+           <p></p>
+           <p></p>
+           <p></p>
+<div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/red%20chilly.jpg" alt="Whole Leaf">
+            <h3>Dry Red Chilly</h3>
+            <p>The dried red chili peppers, with their vibrant crimson hue, added a fiery kick to the dish.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/cardomom.jpg" alt="Broken">
+            <h3>Cardamom</h3>
+            <p>Cardamom's fragrant pods add a warm, spicy flavor to both sweet and savory dishes.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/cloves.jpg" alt="Fanning">
+            <h3>Cloves</h3>
+            <p>The warm, spicy aroma of cloves filled the air as the tea brewed.<p>
+        </div>
+    </div>
+</section>
+<section class="products4">
+    <div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/black%20pepper.jpg" alt="Whole Leaf">
+            <h3>Black Pepper</h3>
+            <p>Black peppercorns, with their pungent aroma and spicy flavor.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/star%20anise.jpg"S alt="Whole Leaf">
+            <h3>Star Anise</h3>
+            <p>The star anise's aromatic flavor adds a warm and spicy note to dishes.<p>
+        </div>
+        
+        <div class="products-col4">
+            <img src="eduford_img/dry%20ginger.jpg" alt="Fanning">
+            <h3>Dry Ginger</h3>
+            <p>The dry ginger powder, with its warm and spicy aroma.<p>
+        </div>
+    </div>
+</section>
+    <section class="products4">
+    <div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/mace.jpg" alt="Broken">
+            <h3>Mace</h3>
+            <p>The warm, fragrant aroma of freshly ground mace filled the air, promising a flavorful culinary experience.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/bay%20leaf.jpg" alt="Broken">
+            <h3>Bay Leaf</h3>
+            <p>The fragrant bay leaf, a culinary staple, adds a subtle depth of flavor to soups, stews, and sauces.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/fennel.jpg" alt="Fanning">
+            <h3>Fennel </h3>
+            <p>The bulb of the fennel plant is used as a vegetable and the seeds are used as a spice.<p>
+        </div>
+    </div>
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+         <section class="products4" id="dry-fruits-section">
+    <h1>Dry Fruits</h1>
+           <p></p>
+           <p></p>
+           <p></p>
+<div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/normal%20date.jpg" alt="Whole Leaf">
+            <h3>Dates</h3>
+            <p>Dates are sweet, nutritious dried fruits rich in fiber, potassium, and antioxidants, used in various recipes.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/cashew.jpg" alt="Broken">
+            <h3>Cashew</h3>
+            <p>Cashews are kidney-shaped nuts rich in nutrients like protein and healthy fats.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/almond.jpg" alt="Fanning">
+            <h3>Almonds</h3>
+            <p>Almounds are known for their unique taste and variety of flavors.<p>
+        </div>
+    </div>
+</section>
+<section class="products4">
+    <div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/fig.jpg" alt="Whole Leaf">
+            <h3>Fig</h3>
+            <p>Sweet, dried fruit packed with fiber and antioxidants.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/dry%20copara.jpg" alt="Broken">
+            <h3>Dry Coconut</h3>
+            <p>Dry coconut, or copra, is the dried kernel of a mature coconut, rich in oil.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/dry%20dates.jpg" alt="Fanning">
+            <h3>Dry Dates</h3>
+            <p>Dry dates are naturally dried fruits rich in nutrients like fiber, potassium, and antioxidants.<p>
+        </div>
+    </div>
+</section>
+    <section class="products4">
+    <div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/makhana.jpg" alt="Whole Leaf">
+            <h3>Makhana</h3>
+            <p>Makhana are nutritious seeds from the lotus plant, often enjoyed as a healthy snack.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/pistachio.jpg" alt="Broken">
+            <h3>Pistachio</h3>
+            <p>Pista, also known as pistachios, are a type of nut known for their distinctive taste and nutritional value.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/raisins.jpg" alt="Fanning">
+            <h3>Raisins</h3>
+            <p>Resin dry fruit is a type of preserved fruit, typically grapes, dried to a raisin-like state.<p>
+        </div>
+    </div>
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         <section class="products4" id="millets-section">
+    <h1>Millets</h1>
+           <p></p>
+           <p></p>
+           <p></p>
+<div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/ragi.jpg" alt="Whole Leaf">
+            <h3> Finger Millet (Ragi)</h3>
+            <p>Finger millet, also known as ragi, is a nutrient-rich gluten-free cereal grain.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/jowar.jpg" alt="Broken">
+            <h3>Sorghum (Jowar)</h3>
+            <p>Sorghum is a versatile cereal grain used for food, feed, and biofuel production.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/bajara.jpg" alt="Fanning">
+            <h3>Pearl Millet (Bajra)</h3>
+            <p>Pearl millet is a drought-tolerant cereal grain, a staple food in many parts of Africa and India.<p>
+        </div>
+    </div>
+</section>
+<section class="products4">
+    <div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/amarnath.jpg" alt="Whole Leaf">
+            <h3>Amarnath</h3>
+            <p>Amaranth millet, a highly nutritious pseudocereal, is a staple food in many parts of the world.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/foxtail.jpg" alt="Broken">
+            <h3>Foxtail</h3>
+            <p>Foxtail millet is a nutritious, drought-tolerant cereal grain, commonly used in Asian cuisines.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/daliya.jpg" alt="Fanning">
+            <h3>Broken Wheat (Daliya)</h3>
+            <p>Broken wheat, also known as dalia, is a nutritious and versatile whole grain, rich in fiber.<p>
+        </div>
+    </div>
+    
+</section>
+
+    
+    
+    
+    
+     <section class="products4" id="seasonal-fruits-section">
+    <h1>Seasonal Fruits</h1>
+           <p></p>
+           <p></p>
+           <p></p>
+<div class="row4">
+        <div class="products-col4">
+            <img src="eduford_img/mango%20(2).jpeg" alt="Whole Leaf">
+            <h3> Mango</h3>
+            <p> A tropical delight, bursting with sweetness and flavor, a summer favorite.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/jackfruit.jpeg" alt="Broken">
+            <h3>Jackfruit</h3>
+            <p>Nature's vegetarian meat, a tropical delight with a unique flavor and versatile uses.<p>
+        </div>
+        <div class="products-col4">
+            <img src="eduford_img/kokum.jpeg" alt="Fanning">
+            <h3>Kokum</h3>
+            <p>Kokum is a tangy fruit with a vibrant red hue, is a culinary treasure  and a health powerhouse.<p>
+        </div>
+    </div>
+         <p></p>
+    <p></p>
+    <p></p>
+    <div class="button-container">
+        <a href="contact.html" class="button">Order Now</a>
+    </div>
+</section>
+    
+    
+    
+    
+        <!------------FOOTER------------>
+        <section class="footer"><h3>ABOUT US</h3>
+            <p>We are a Mumbai-based company specializing in the export of agricultural products. <br>Over time, we have become one of the leading merchant exporters from India. </p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i></section>
+            
+        
+        
+        <!---------JAVA SCRIPT FOR TOGGLE MENU----------->  
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>

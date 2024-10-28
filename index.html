@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulFlare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo-Photoroom%20(1).png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Welcome to Solflare</h1>
+            <p>Import | Export </p>
+            <a href="#products" class="hero-btn">Explore More</a>
+        </div>
+    </section>
+
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        const barsIcon = document.querySelector(".fa-bars");
+        const closeIcon = document.querySelector(".fa-x");
+
+        // Function to toggle the navigation menu
+        barsIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("nav-active");
+        });
+
+        // Function to close the navigation menu
+        closeIcon.addEventListener("click", () => {
+            navLinks.classList.remove("nav-active");
+        });
+
+        // Close the menu when a link is clicked
+        const menuLinks = document.querySelectorAll(".nav-links ul li a");
+        menuLinks .forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("nav-active");
+            });
+        });
+    </script>`
+        
+     <!------PRODUCT WE OFFER---------->   
+        
+      <section class="product" id="products">
+          <h1>Products We Offer</h1>
+          
+          <div class="row">
+          <div class="product-col">
+              <h3>Black Tea</h3>
+              <p>
+
+Top Hill black tea is highly oxidized, giving it a stronger flavor than less oxidized teas. It is processed using either the CTC method, ideal for medium- and lower-quality leaves, or the Orthodox method, used for high-quality leaves. Hand processing, preferred for the Orthodox method, helps maintain the tea’s quality and blend consistency over time. </p>
+              </div>
+              <div class="product-col">
+              <h3>Green Tea</h3>
+              <p>Green tea is widely used in products like beverages, health foods, supplements, and cosmetics. Various green tea varieties have emerged in different countries, influenced by factors such as growing conditions, production methods, and harvest times. Its versatility and health benefits have made green tea a popular ingredient in both traditional and modern wellness products worldwide.</p>
+              </div>
+              <div class="product-col">
+              <h3>White Tea</h3>
+              <p>
+White tea, made from the buds and leaves of the Camellia sinensis plant, undergoes minimal processing after being naturally withered in sunlight to prevent oxidation. Its name comes from the silvery-white hairs on the unopened buds, though the brewed tea is pale yellow. Valued for its delicate flavor and high antioxidant content, white tea is a favorite among tea enthusiasts.</p>
+              </div>
+          </div>
+        </section> 
+      
+        <!-----------FACILITIES---------->
+        
+       <section class="facilities">
+    <h1>Black Tea | CTC / Orthodox Grades</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/bp.jpg">
+            <h3>BP - Broken Pekoe</h3>
+            <p>Aromatic and robust, BP tea offers a rich, full-bodied flavor.<p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/bop.jpg">
+            <h3>BOP - Broken Orange Pekoe</h3>
+                        <p>Delicate and floral, BOP tea delivers a light and refreshing taste.<p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/bps.jpg">
+            <h3>BPS - Broken Pekoe Souchong</h3>
+                        <p>Slightly broken, BPS tea offers a balance of strength and delicacy.<p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/pf.jpg">
+            <h3>PF - Pekoe Fanning</h3>
+            <p>Fine and fluffy, PF tea boasts a delicate aroma and a smooth texture.<p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/pd.jpg">
+            <h3>PD - Pekoe Dust</h3>
+            <p>Slightly dusty, PD tea offers a robust flavor with a hint of earthiness.<p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/dust.jpg">
+            <h3>D - Dust</h3>
+            <p>Fine and powdery, dust tea offers a strong, concentrated flavor.<p>
+        </div>
+    </div>
+</section>
+        
+
+       <!---------- Facilities 3----------->
+<section class="facilities2">
+    <h1>Our More Product</h1>
+    <p></p>
+    <p></p>
+    <p></p>
+    <div class="row2">
+        <div class="facilities-col2">
+             <a href="product.html#spices-section">
+            <img src="eduford_img/spices.jpg" alt="Whole Leaf">
+            <h3>Spices</h3>
+                </a>
+        </div>
+        <div class="facilities-col2">
+            <a href="product.html#dry-fruits-section">
+            <img src="eduford_img/dry.jpg" alt="Broken">
+            <h3>Dry Fruits</h3>
+            </a>
+        </div>
+        <div class="facilities-col2">
+            <a href="product.html#millets-section">
+            <img src="eduford_img/millets.jpg" alt="Fanning">
+            <h3>Millets</h3>
+                 </a>
+        </div>
+        <div class="facilities-col2">
+            <a href="product.html#seasonal-fruits-section"> 
+            <img src="eduford_img/fruit.jpeg" alt="Fanning">
+            <h3>Seasonal Fruits</h3>
+                 </a>
+        </div>
+    </div>
+    <p></p>
+    <div class="button-container">
+        <a href="product.html" class="button">View More → </a>
+    </div>
+
+
+            
+</section>
+    
+    
+    
+    
+    
+                  <!-----------FACILITIES 2---------->
+
+    <!----------------TESTIMONIALS------------->  
+        
+        <section class="testimonials">
+            <h1>Our Customer Says</h1>
+            <p>One of the best company for tea trading.</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="eduford_img/user1.jpg">
+                    <div>
+                        <p> I really liked their service and the quality of the product they provide. Would recommend this to all.
+                        </p>
+                        <h3> Neha Sankhe
+                        </h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="eduford_img/user2.jpg">
+                    <div>
+                        <p> I really liked their service and the quality of the product they provide. Would recommend this to all.
+                        </p>
+                        <h3> Rohan Sharma
+                        </h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------CALL TO ACTION------------>
+        
+        <section class="cta">
+            <h1>Contact us for your orders, it will be our pleasure to serve you.
+            </h1>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+        
+          <!------------FOOTER------------>
+        
+        <section class="footer">
+            <h3>ABOUT US</h3>
+            <p>We are a Mumbai-based company specializing in the export of agricultural products. <br>Over time, we have become one of the leading merchant exporters from India. </p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+        </section>
+          
+        <!---------JAVA SCRIPT FOR TOGGLE MENU----------->  
+        
+      
+    </body>
+</html>

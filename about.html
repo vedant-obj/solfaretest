@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulFlare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo-Photoroom%20(1).png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+          <h1>ABOUT US</h1>
+        </section>
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        const barsIcon = document.querySelector(".fa-bars");
+        const closeIcon = document.querySelector(".fa-x");
+
+        // Function to toggle the navigation menu
+        barsIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("nav-active");
+        });
+
+        // Function to close the navigation menu
+        closeIcon.addEventListener("click", () => {
+            navLinks.classList.remove("nav-active");
+        });
+
+        // Close the menu when a link is clicked
+        const menuLinks = document.querySelectorAll(".nav-links ul li a");
+        menuLinks .forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("nav-active");
+            });
+        });
+    </script>
+        
+        
+        
+   <!------------ABOUT US CONTENT------------>
+        
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Why Choose Us ?</h1>
+                    <p>At Solflare, our top priority is total customer satisfaction. We operate a trading company.We specialize in exporting premium quality tea that meets international standards.We source our tea from certified vendors to ensure its quality and purity. Our offerings are available in both standard and customized specifications. Our ability to deliver large volumes on time has strengthened our relationships with reputable vendors in both domestic and international markets. With a wide distribution network across the Middle East, Europe, and Africa, we serve a diverse and expanding clientele in the tea industry.</p>
+                    <a href="contact.html" class="hero-btn red-btn">CONTACT US</a>
+                </div>
+                <div class="about-col">
+                    <img src="eduford_img/hand2.jpg">
+                </div>
+            </div>
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <!------------FOOTER------------>
+        <section class="footer"><h3>ABOUT US</h3>
+            <p>We are a Mumbai-based company specializing in the export of agricultural products. <br>Over time, we have become one of the leading merchant exporters from India. </p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i></section>
+            
+        
+        
+        <!---------JAVA SCRIPT FOR TOGGLE MENU----------->  
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>
