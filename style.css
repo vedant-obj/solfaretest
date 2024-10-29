@@ -1025,16 +1025,16 @@
             font-size: 14px; 
             margin-bottom: 10px; 
         }
+  }
+    .sub-header h1{
+        font-size: 160%;
+        margin-top: 45px;
+    }
 
 
-         body {
+  .body {
   user-select: none; /* Supported by most browsers */
   -webkit-user-select: none; /* For Safari */
   -moz-user-select: none; /* For Firefox */
   -ms-user-select: none; /* For Internet Explorer/Edge */
 }
-    }
-    .sub-header h1{
-        font-size: 160%;
-        margin-top: 45px;
-    }
